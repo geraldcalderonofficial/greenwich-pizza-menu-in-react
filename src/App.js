@@ -24,7 +24,7 @@ const pizzaData = [
       "Our cheese pizza overloaded with parmesan cheese, mozzarella, cheddar, and cream cheese.",
     price: 223.0,
     photoName: "pizzas/cheese-overload-lift.png",
-    soldOut: false,
+    soldOut: true,
   },
   {
     name: "Roast Beef & Cream Cheese Overload",
@@ -40,7 +40,7 @@ const pizzaData = [
       "Our cheesy and flavor-loaded take on everyone’s favorite pepperoni.",
     price: 223.0,
     photoName: "pizzas/pepperoni-overload-lift.png",
-    soldOut: false,
+    soldOut: true,
   },
   {
     name: "Honey-Glazed Spinach Overload",
