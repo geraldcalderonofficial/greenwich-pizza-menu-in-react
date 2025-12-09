@@ -103,11 +103,7 @@ function Menu() {
             the delicious overload goodness. Hurry up Now! Promo Pizzas. Pizza &
             Pasta Group Meals.
           </p>
-          <ul className="pizzas">
-            {pizzas.map((pizza) => (
-              <Pizza pizzaObj={pizza} key={pizza.name} />
-            ))}
-          </ul>
+          <ul className="pizzas"></ul>
         </>
       ) : (
         <p>We're still working on our menu. Please come back later :)</p>
@@ -119,11 +115,11 @@ function Menu() {
 function Pizza() {
   return (
     <li className={}>
-      <img src={pizzaObj.photoName} alt={pizzaObj.name} />
+      <img src={} alt={} />
       <div>
-        <h3>{pizzaObj.name}</h3>
-        <p>{pizzaObj.ingredients}</p>
-        <span>Starts at ₱{pizzaObj.soldOut ? "SOLD OUT" : pizzaObj.price}</span>
+        <h3>{}</h3>
+        <p>{}</p>
+        <span>Starts at ₱{"SOLD OUT"}</span>
       </div>
     </li>
   );
